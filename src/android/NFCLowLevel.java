@@ -1,4 +1,4 @@
-package com.siemens.cordova.nfcalowlevel;
+package com.siemens.cordova.nfclowlevel;
 
 
 import android.app.Activity;

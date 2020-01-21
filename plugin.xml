@@ -17,6 +17,6 @@
             <uses-permission android:name="android.permission.NFC"/>
             <uses-feature android:name="android.hardware.nfc" android:required="false"/>
         </config-file>
-        <source-file src="src/android/NFCLowLevel.java" target-dir="src/cordova-plugin-nfclowlevel/NFCLowLevel" />
+        <source-file src="src/android/NFCLowLevel.java" target-dir="src/com/siemens/cordova/nfclowlevel" />
     </platform>
 </plugin>
