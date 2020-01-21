@@ -23,7 +23,7 @@ import java.io.IOException;
 import java.util.Arrays;
 
 
-public class NFCALowLevel extends CordovaPlugin {
+public class NFCLowLevel extends CordovaPlugin {
 
     private static final String TAG = "NfcPlugin";
     private PendingIntent pendingIntent = null;
