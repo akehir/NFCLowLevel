@@ -9,7 +9,7 @@
     <platform name="android">
         <config-file parent="/*" target="res/xml/config.xml">
             <feature name="NFCLowLevel">
-                <param name="android-package" value="cordova-plugin-nfclowlevel.NFCLowLevel" />
+                <param name="android-package" value="com.siemens.cordova.NFCLowLevel" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>
