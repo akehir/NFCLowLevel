@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<plugin id="cordova-plugin-nfclowlevel" version="1.0.0" 
-    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+<plugin id="cordova-plugin-nfclowlevel" version="1.0.0"
+    xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <name>NFCLowLevel</name>
     <js-module name="NFCLowLevel" src="www/NFCLowLevel.js">
@@ -15,7 +15,7 @@
         </config-file>
         <config-file parent="/*" target="AndroidManifest.xml">
             <uses-permission android:name="android.permission.NFC"/>
-            <uses-feature android:name="android.hardware.nfc" android:required="true"/>
+            <uses-feature android:name="android.hardware.nfc" android:required="false"/>
         </config-file>
         <source-file src="src/android/NFCLowLevel.java" target-dir="src/com/siemens/cordova/nfclowlevel" />
     </platform>
